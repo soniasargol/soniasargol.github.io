@@ -1,0 +1,110 @@
+
+<!doctype html>
+<html lang="en" class="h-100">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.87.0">
+    <title>Sonia Sargolzaei</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.1/examples/cover/">
+
+    <link href="bootstrap-5.1.0-dist/css/bootstrap.min.css" rel="stylesheet">
+
+
+
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+
+    
+    <!-- Custom styles for this template -->
+    <link href="cover.css" rel="stylesheet">
+  </head>
+  <body class="d-flex h-100 text-center text-white bg-dark">
+    
+<div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+  <header class="mb-auto">
+    <div>
+      <h3 class="float-md-start mb-0">Sonia Sargolzaei</h3>
+      <nav class="nav nav-masthead justify-content-center float-md-end">
+        <a class="nav-link active" aria-current="page" data-bs-toggle="tab" href="#Home">Home</a>
+        <a class="nav-link" data-bs-toggle="tab" href="#About">About</a>
+<!--        <a class="nav-link " data-bs-toggle="tab" href="#Resume">Resume</a>-->
+        <a class="nav-link" data-bs-toggle="tab" href="#Contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="px-3">
+    <div class="tab-content">
+      <div class="tab-pane active" id="Home">
+        <img id="profile-pic" src="./sonia.jpg" height="200" style="border-radius: 50% " />
+
+        <h1>Hi, I'm Sonia.</h1>
+        <p class="lead">I am a Software Engineer at eBay.  I graduated from Georgia Tech with a master's degree in Computer Science.</p>
+        <p class="lead"></p>
+        <p class="lead">
+          <a href="mailto:sousargol@gmail.com" class="btn btn-lg btn-outline-light">Email me</a>
+          <a href="sonia-sargolzaei-resume.pdf" class="btn btn-lg btn-outline-light" target="_blank">Resume</a>
+        </p>
+      </div>
+
+      <div class="tab-pane" id="About">
+        <figure class="figure">
+          <img src="IMG_6262.jpg" class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure.">
+          <figcaption class="figure-caption">Me and <a class="link-secondary" href="https://alisiahkoohi.github.io/" target="_blank">my husband</a> at <a class="link-secondary" href="https://en.wikipedia.org/wiki/George_P._Burdell" target="_blank">George P. Burdell</a>'s Birthday Bash!—April 1, 2021</figcaption>
+        </figure>
+        <div class="text-start ">
+          <p>I'm a Software Engineer III at eBay with a master's degree in Computer Science from Georgia Tech, specializing in Machine Learning.</p>
+          <p>My passion for software engineering, data analytics, and machine learning drives me to learn more every day.</p>
+          <p>In my free time, I enjoy reading books, playing with my cats, and watching movies.</p>
+        </div>
+      </div>
+
+      <div class="tab-pane" id="Resume">
+        <div class="">
+          <embed type="application/pdf" src= "sonia-sargolzaei-resume.pdf" width= "720" height= "800" >
+        </div>
+      </div>
+
+      <div class="tab-pane" id="Contact">
+        <p><b>Email:</b> sousargol [at] gmail [dot] com <br>
+        <!-- <b>Address:</b> CSPAV Building, 760 Spring St., Atlanta, GA</p>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1275.1829985740935!2d-84.38841421903612!3d33.776062605136524!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88f50466995411a3%3A0x110ed1ab9c63c812!2sCenter%20for%20Spatial%20Planning%20Analytics%20and%20Visualization!5e0!3m2!1sen!2sus!4v1630472290301!5m2!1sen!2sus" width="600" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe> -->
+      </div>
+
+    </div>
+  </main>
+
+
+  <footer class="mt-auto text-white-50">
+    <p style="font-size: 13px">Original <a href="https://getbootstrap.com/docs/4.0/examples/cover/" class="link-secondary" target="_blank">template</a> from <a href="https://twitter.com/mdo" class="link-secondary" target="_blank">@mdo</a></p>
+  </footer>
+</div>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" ></script>
+<script src="bootstrap-5.1.0-dist/js/bootstrap.bundle.min.js" ></script>
+<script>
+  $('.nav a').on('click', function(){
+  $('.nav a').removeClass('active');
+  $(this).addClass('active')
+});
+</script>
+  </body>
+</html>
